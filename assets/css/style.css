@@ -14,3 +14,17 @@ header nav ul li a{
 header h1{
     padding: 0 0 0 15px;
 }
+.jumbo-text{
+    margin: 100px 0 0 200px;
+    font-size: 30px;
+}
+.jumbotron{
+    display: flex;
+}
+.jumbotron div img{
+    width: 500px;
+    max-height: 670px;
+}
+.jumbo-img{
+    margin: 30px 0 0 40px;
+}
