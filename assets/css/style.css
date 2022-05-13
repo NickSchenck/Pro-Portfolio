@@ -1,12 +1,25 @@
-
+:root{
+    --primary-color: #b5382f;
+    --secondary-color: #bfbf2a;
+    --tertiary-color: #80807d;
+}
 header{
     display: flex;
     justify-content: space-between;
+    background: var(--primary-color);
+}
+header a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+header nav{
+    font-size: 25px;
 }
 header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    list-style: none;
 }
 header nav ul li a{
     padding: 10px 30px;
@@ -32,13 +45,18 @@ header h1{
     margin: 0 0 0 15px;
     font-size: 30px;
 }
+#about-me h2{
+    text-align: center;
+}
 #projects-work h2{
     font-size: 40px;
     margin: 0 0 0 15px;
+    text-align: center;
 }
 .project-contents{
     display: flex;
     flex-wrap: wrap;
+    margin: 15px;
 }
 #contact-info div{
     display: flex;
