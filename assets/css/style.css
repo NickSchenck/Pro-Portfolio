@@ -32,7 +32,15 @@ header h1{
     margin: 0 0 0 15px;
     font-size: 30px;
 }
+#projects-work h2{
+    font-size: 40px;
+    margin: 0 0 0 15px;
+}
 .project-contents{
     display: flex;
     flex-wrap: wrap;
+}
+#contact-info div{
+    display: flex;
+    justify-content: space-around;
 }
