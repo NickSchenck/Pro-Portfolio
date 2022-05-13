@@ -63,6 +63,16 @@ header h1{
     width: 350px;
     height: 475px;
 }
+.project-img{
+    background-color: var(--tertiary-color);
+    border: 7px;
+}
+#contact-info{
+    background-color: var(--primary-color);
+}
+#contact-info h2{
+    font-size: 40px;
+}
 #contact-info div{
     display: flex;
     justify-content: space-around;
