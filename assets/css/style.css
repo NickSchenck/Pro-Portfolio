@@ -56,9 +56,15 @@ header h1{
 .project-contents{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 15px;
+}
+.project-contents div img{
+    width: 350px;
+    height: 475px;
 }
 #contact-info div{
     display: flex;
     justify-content: space-around;
+    font-size: 30px;
 }
